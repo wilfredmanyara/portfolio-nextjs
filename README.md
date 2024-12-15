@@ -8,8 +8,6 @@ This is a modern developer portfolio built with **Next.js**, **Tailwind CSS**, a
 - **Responsive Design**: Built with Tailwind CSS for mobile-friendly layouts.
 - **Animations**: Smooth transitions and interactive elements using Framer Motion.
 - **Project Showcase**: Highlights completed and ongoing projects with detailed descriptions.
-- **Skills Section**: Displays technical proficiencies with progress indicators.
-- **Contact Form**: Fully functional form integrated with email services.
 
 ## Tech Stack
 
