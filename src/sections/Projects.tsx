@@ -6,27 +6,31 @@ import image4 from "@/assets/images/project-4.jpg";
 import image5 from "@/assets/images/project-5.jpg";
 import Image from "next/image";
 
-/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 const projects = [
   {
-    name: "Artisan Brew Co.",
+    name: "The Wandering Quill",
     image: image1,
+    url: "https://bookstore.wilfredmanyara.com/",
   },
   {
-    name: "Wavelength Studios",
+    name: "Elevate 3D",
     image: image2,
+    url: "https://3d.wilfredmanyara.com/",
   },
   {
-    name: "Nova Fitness",
+    name: "PrintSphere",
     image: image3,
+    url: "https://brokne.wilfredmanyara.com/",
   },
   {
-    name: "Urban Plates",
+    name: "PDF Whisperer",
     image: image4,
+    url: "https://azprod.wilfredmanyara.com/",
   },
   {
-    name: "Bloom Botanicals",
+    name: "Layers",
     image: image5,
+    url: "https://nextjs.wilfredmanyara.com/",
   },
 ];
 
@@ -36,11 +40,12 @@ const Projects: FC = () => {
       <div className="container">
         <h2 className="text-4xl md:text-7xl lg:text-8xl">Selected works</h2>
         <div className="mt-10 md:mt-16 lg:mt-20">
-          {projects.map(({ name, image }) => (
+          {projects.map(({ name, image, url }) => (
             <a
-              href="#"
+              href={url}
+              target="_blank"
               key={name}
-              className="border-t last:border-b border-stone-400 border-dotted py-6 md:py-8 lg:py-10 flex flex-col relative group/project"
+              className="border-t last:border-b border-stone-400 border-dotted py-6 md:py-8 lg:py-10 flex flex-col relative group/project cursor-pointer"
             >
               <div className="absolute bottom-0 left-0 w-full h-0 group-hover/project:h-full transition-all duration-700 bg-stone-300"></div>
               <div className="relative">
