@@ -23,9 +23,9 @@ const projects = [
     url: "https://brokne.wilfredmanyara.com/",
   },
   {
-    name: "PDF Whisperer",
+    name: "Seal Social",
     image: image4,
-    url: "https://azprod.wilfredmanyara.com/",
+    url: "https://app.wilfredmanyara.com/",
   },
   {
     name: "Layers",
