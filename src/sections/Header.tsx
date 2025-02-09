@@ -173,8 +173,10 @@ const Header: FC = () => {
           </div>
         </div>
       </div>
-      <div className="fixed top-0 left-0 w-full z-10
-      ">
+      <div
+        className="fixed top-0 left-0 w-full z-10
+      "
+      >
         <div className="container !max-w-full">
           <div className="flex justify-end h-20 items-center">
             <div className="flex items-center gap-4">
@@ -213,9 +215,11 @@ const Header: FC = () => {
                   />
                 </svg>
               </div>
-              <Button variant="primary" className="hidden md:inline-flex">
-                Contact Me
-              </Button>
+              <a href="/#contact">
+                <Button variant="primary" className="hidden md:inline-flex">
+                  Contact Me
+                </Button>
+              </a>
             </div>
           </div>
         </div>

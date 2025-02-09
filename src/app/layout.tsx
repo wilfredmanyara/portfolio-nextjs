@@ -10,8 +10,8 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "Minimal Single Page Portfolio",
-  description: "Created with NextJs",
+  title: "Wilfred Manyara",
+  description: "Minimal Single Page Portfolio",
 };
 
 export default function RootLayout({
