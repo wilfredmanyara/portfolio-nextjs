@@ -14,7 +14,7 @@ const testimonials = [
     company: "Pixel Perfect",
     role: "Head of Design",
     quote:
-      "Wilfred's expertise in both technical development and design created a beautiful, high-performing website.",
+      "Wilfred's expertise in both technical development and design created a beautiful, high-performing web app.",
     image: image1,
     imagePositionY: 0.2,
   },
@@ -23,7 +23,7 @@ const testimonials = [
     company: "Craft Coffee Co.",
     role: "Founder",
     quote:
-      "Wilfred transformed our boutique coffee brand with a website that perfectly balances aesthetics and functionality.",
+      "Wilfred transformed our boutique coffee brand with a software that perfectly balances aesthetics and functionality.",
     image: image2,
     imagePositionY: 0.1,
   },
