@@ -162,15 +162,6 @@ const Header: FC = () => {
       </div>
       <div className="fixed top-0 left-0 w-full mix-blend-difference backdrop-blur-md z-10">
         <div className="container !max-w-full">
-          <iframe
-            src="https://givemereddit.eu/soccer/arsenal.html"
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            allowFullScreen
-            scrolling="no"
-            allowTransparency
-          />
           <div className="flex justify-between h-20 items-center">
             <div>
               <a href="/">
