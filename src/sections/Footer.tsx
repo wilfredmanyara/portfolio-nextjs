@@ -59,7 +59,7 @@ const Footer: FC = () => {
               <div className="rounded-full bg-green-400 animate-ping absolute inset-0"></div>
               <div className="size-2.5 rounded-full bg-green-400 animate-pulse"></div>
             </div>
-            <span className="uppercase">One spot available for next month</span>
+            <span className="uppercase">One spot available</span>
           </div>
           <div className="grid md:grid-cols-3 md:items-center">
             <div className="md:col-span-2">
